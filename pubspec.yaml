@@ -18,9 +18,14 @@ dependencies:
 #  polkawallet_sdk: ^0.4.4
 #  polkawallet_ui: ^0.4.1
   polkawallet_ui:
-    path: ../ui
+    git:
+      url: https://github.com/polkawallet-io/ui.git
+      ref: master
   polkawallet_sdk:
-    path: ../sdk
+  polkawallet_sdk:
+    git:
+      url: https://github.com/polkawallet-io/sdk.git
+      ref: master
 
 dev_dependencies:
   build_runner: ^2.0.3
