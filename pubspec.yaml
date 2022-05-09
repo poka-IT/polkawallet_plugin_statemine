@@ -22,7 +22,6 @@ dependencies:
       url: https://github.com/polkawallet-io/ui.git
       ref: master
   polkawallet_sdk:
-  polkawallet_sdk:
     git:
       url: https://github.com/polkawallet-io/sdk.git
       ref: master
